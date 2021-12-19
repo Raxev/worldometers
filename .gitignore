@@ -1,4 +1,7 @@
 scrapy_output.txt
+*.csv
+*.json
+*.xml
 
 .idea
 

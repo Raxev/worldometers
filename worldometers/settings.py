@@ -23,12 +23,6 @@ NEWSPIDER_MODULE = 'worldometers.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
-for file_name in glob.glob('*.txt'):
-    new_path = os.path.join('worldometers', file_name)
-    print(file_name, new_path)
-
-LOG_STDOUT = True
-LOG_FILE = pathlib.Path.cwd().joinpath('scrapy_output.txt')
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
